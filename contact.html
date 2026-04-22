@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Sarah Robinson</title>
+  <!-- EDIT: Update title with your name -->
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ========================================
+       NAVIGATION BAR - Same on all pages
+       ======================================== -->
+  <nav>
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- ========================================
+         PAGE TITLE
+         ======================================== -->
+    <section class="hero">
+      <h1>Get In Touch</h1>
+    </section>
+
+    <!-- ========================================
+         CONTACT INFORMATION
+         ======================================== -->
+    <section>
+      <h2 class="section-title">Contact Information</h2>
+      
+      <div class="card-grid">
+        
+        <!-- EMAIL CONTACT -->
+        <div class="card">
+          <div class="card-title">📧 Email</div>
+          <div class="card-content">
+            <p>
+              <a href="mailto:srvrobinso@gmail.com" style="color: var(--primary-accent); text-decoration: none;">
+                srvrobinso@gmail.com
+              </a>
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+              Best way to reach me for inquiries :D
+            </p>
+          </div>
+        </div>
+
+        <!-- LINKEDIN PROFILE -->
+        <div class="card">
+          <div class="card-title">💼 LinkedIn</div>
+          <div class="card-content">
+            <!-- EDIT: Replace with your actual LinkedIn profile URL -->
+            <p>
+              <a href="https://www.linkedin.com/in/sarah-r-000272230" style="color: var(--primary-accent); text-decoration: none;">
+                linkedin.com/in/sarah-r-000272230
+              </a>
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+              Connect with me professionally
+            </p>
+          </div>
+        </div>
+
+        <!-- GITHUB PROFILE -->
+        <!-- <div class="card">
+          <div class="card-title">🐙 GitHub</div>
+          <div class="card-content">
+            <p>
+              <a href="https://github.com/yourprofile" style="color: var(--primary-accent); text-decoration: none;">
+                github.com/yourprofile
+              </a>
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+              Check out my projects and contributions
+            </p>
+          </div>
+        </div> -->
+
+        <!-- ADD MORE CONTACT METHODS HERE if needed -->
+        <!-- Template:
+        <div class="card">
+          <div class="card-title">📱 Platform Name</div>
+          <div class="card-content">
+            <p>
+              <a href="https://yourprofileurl" style="color: var(--primary-accent); text-decoration: none;">
+                Your Handle/Link
+              </a>
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+              Description of how to use this contact method
+            </p>
+          </div>
+        </div>
+        -->
+      </div>
+    </section>
+
+    <!-- ========================================
+         CONTACT FORM
+         ======================================== 
+         
+         NOTE: This form requires a backend service to send emails.
+         GitHub Pages doesn't support server-side code.
+         
+         SOLUTION OPTIONS:
+         1. Use Formspree (https://formspree.io) - Free & easy setup
+         2. Use Basin (https://usebasin.com) - Simple form submission
+         3. Use Netlify Forms (if deploying to Netlify instead)
+         4. Use a commercial form service like Typeform or JotForm
+         
+         TO SET UP WITH FORMSPREE:
+         1. Go to https://formspree.io
+         2. Sign up and create a new form
+         3. Get your form ID
+         4. Replace "your_formspree_id" in the form action below
+         5. Test the form and confirm it works
+    -->
+    <!-- <section>
+      <h2 class="section-title">Send Me a Message</h2>
+      
+      <div class="card" style="max-width: 600px; margin: 0 auto;">
+        
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+          
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              required
+              placeholder="Your full name"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              required
+              placeholder="your.email@example.com"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input 
+              type="text" 
+              id="subject" 
+              name="subject" 
+              placeholder="What is this about?"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea 
+              id="message" 
+              name="message" 
+              required
+              placeholder="Your message here..."
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div style="background-color: rgba(124, 58, 237, 0.1); padding: 1.5rem; border-radius: 8px; margin-top: 2rem;">
+          <p style="color: var(--text-muted); font-size: 0.9rem;">
+            <strong>🔧 Setup Required:</strong> This form needs configuration before it works.
+          </p>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+            <strong>Quick Setup Instructions:</strong>
+          </p>
+          <ol style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem; margin-left: 1.5rem;">
+            <li>Visit <a href="https://formspree.io" style="color: var(--primary-accent);">formspree.io</a></li>
+            <li>Sign up for a free account</li>
+            <li>Create a new form and get your Form ID</li>
+            <li>Replace "YOUR_FORMSPREE_ID" in the form action above</li>
+            <li>Test by sending a message to yourself</li>
+          </ol>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ========================================
+         AVAILABILITY/CALL TO ACTION
+         ======================================== -->
+    <section class="center">
+      <h2 class="section-title">Currently Available</h2>
+      
+      <div class="card" style="max-width: 650px; margin: 0 auto;">
+        <p style="font-size: 1.1rem; line-height: 1.8;">
+          Always interested in what is next! Whether it is creative, technical, or both (yay), I am open
+          to new opportunities and collaborations.
+        </p>
+        
+        <p style="margin-top: 1.5rem; color: var(--text-muted);">
+          I generally respond to inquiries within 24-48 hours. Looking forward to hearing from you!
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================
+       FOOTER - Same on all pages
+       ======================================== -->
+  <footer>
+    <div class="socials">
+      <!-- Template: <a href="https://github.com/yourprofile" class="social-link">GitHub</a> -->
+      <!-- <a href="https://github.com/yourprofile" class="social-link">GitHub</a> -->
+      <a href="https://www.linkedin.com/in/sarah-r-000272230/" class="social-link">LinkedIn</a>
+    </div>
+    <p>&copy; 2026 Sarah Robinson. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

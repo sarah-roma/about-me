@@ -61,39 +61,39 @@
       <div class="portfolio-grid">
         
         <div class="portfolio-item">
-          <img src="images/IMG_20210517_112434275.jpg" alt="Pencil 1">    
+          <img src="images/pencil-1.jpg" alt="Pencil drawing">    
         </div>
 
         <div class="portfolio-item">
-          <img src="images/IMG_20210517_112613778.jpg" alt="Pencil 2">
+          <img src="images/pencil-2.jpg" alt="Pencil drawing 2">
         </div>
 
         <div class="portfolio-item">
-          <img src="images/IMG_20210517_120826692_HDR.jpg" alt="Sculpture 1">
+          <img src="images/sculpture-1.jpg" alt="Clay sculpture 1">
         </div>
 
         <div class="portfolio-item">
-          <img src="images/IMG_20210517_120902995.jpg" alt="Sculpture 2">
+          <img src="images/sculpture-2.jpg" alt="Clay sculpture 2">
         </div>
 
         <div class="portfolio-item">
-          <img src="images/IMG_20210519_203513933.jpg" alt="Sketchbook 1">
+          <img src="images/sketchbook-1.jpg" alt="Acrylic in sketchbook 1">
         </div>
 
         <div class="portfolio-item">
-          <img src="images/IMG_20210519_203713771.jpg" alt="Sketchbook 2">
+          <img src="images/sketchbook-2.jpg" alt="Acrylic in sketchbook 2">
         </div>
 
         <div class="portfolio-item">
-          <img src="images/IMG_20210520_090151516.jpg" alt="Final Piece 1">
+          <img src="images/final-piece-1.jpg" alt="Multimedia final piece">
         </div>
 
         <div class="portfolio-item">
-          <img src="images/IMG_20210520_090232782.jpg" alt="Final Piece 2">
+          <img src="images/final-piece-2.jpg" alt="Biro on Covid-19 test boxes final piece">
         </div>
 
         <div class="portfolio-item">
-          <img src="images/IMG_20210519_094138612.jpg" alt="Final Display 1">
+          <img src="images/final-display-1.jpg" alt="Final Display">
         </div>
 
         <!-- ADD MORE PORTFOLIO ITEMS HERE -->
@@ -120,17 +120,30 @@
         <div class="card">
           <div class="card-title">TechSheCan Robotics Initiative</div>
           <div class="card-subtitle">TechSheCan x SaneSeven x IBM | 2024-2025</div>
-          
           <div class="card-content">
             <p>
-              Supported the build and development of an initiative to encourage young girls into technology.
-              Programmed a Boston Dynamics Spot robot to take pictures with a camera
-              to provide a paralysed photographer with the ability to take photos.
+              I was approached to support an initiative looking at encouraging young girls into technology.
+              We had to design a solution so that a paralysed photographer Kat could take photos using a Boston
+              Dynamics Spot robot, while also teaching the young girls different concepts of technology and design.
+              Using my unique linux troubleshooting and bash scripting experience, I connected remotely to the robot, 
+              also playing a key part in modifying Python scripts using the SDK, as well as programming
+              manual arcade controls to create the control panel to control Spot and capture images remotely. This also
+              involved connecting to the camera SDK and understanding different parameters to ensure the photos were high
+              quality and met Kat's needs.
+              The result? Kat was able to take high quality photos using the Spot rig, with the accessible control panel
+              working perfectly for her needs. The project was a huge success, and the initiative got thousands of views
+              online.
+            <a href="https://techshecan.org/robot" class="link">The official project site!</a>
             <a href="https://youtu.be/Zx-QNLV1dfs?si=cpU-giFz1jiAg7Ve" class="link">Check out the video!</a>
-          </div>
             </p> 
+            <div class="case-study-images">
+              <!-- Replace these sample images with your project screenshots -->
+              <img src="images/teaching-design-concepts.png" alt="Explaining concepts to a young attendee">
+              <img src="images/spot-camera.jpg" alt="Robotics and camera setup">
+            </div>
             <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">
-              <strong>Skills:</strong> Boston Dynamics SDK, Python, Collaboration, Communication
+              <strong>Skills:</strong> Boston Dynamics SDK, Python, Linux, Bash scripting, Fujifilm SDK, Robotics,
+              API management, Collaboration, Communication
             </p>
           </div>
         </div>
@@ -142,12 +155,35 @@
           
           <div class="card-content">
             <p>
-              This is where you describe the second project. Explain your creative process, 
-              the concept, and what you learned from creating it.
+              This application used handshape detection technology and machine learning (ML) to recognise one- and two-
+              handed British Sign Language fingerspelling. Timing logic built words from the individually spelled
+              letters. It's a proof of concept exploring what could be possible with the unique challenges BSL
+              fingerspelling recognition presents. Most existing fingerspelling translation solutions use ASL (one-handed)
+              fingerspelling. I wanted to explore how two-handed BSL signs change the nature of the application.
+              Existing fingerspelling recognition applications also focus on recognising one handshape at a time,
+              clearly for practice rather than communication. In this PoC, I explored the feasibility of communication
+              through spelling out words. I followed the following process:
+                • Generate/import the data
+                • Create/choose a model
+                • Clean the data
+                • Split the data into a training set and a test set
+                • Train the model
+                • Make predictions
+                • Evaluate and improve the model
+              Throughout the project, I explored machine learning technologies including CNNs, OpenCV, MediaPipe,
+              RandomForest, ResNets and SVMs. The use of hand landmark recogition was fascinating; it made me consider how
+              AI could impact film production, especially for motion/performance capture.
+              The outcome was a working prototype that recognised a subset of BSL fingerspelling with reasonable accuracy.
+              It was a great learning experience in ML and computer vision, and it sparked my interest in the
+              potential applications of AI in creative industries.
             </p>
-            
+            <div class="case-study-images">
+              <!-- Replace these sample images with your project screenshots -->
+              <img src="images/B-fingerspelling.png" alt="letter B fingerspelling recognition output">
+              <img src="images/F-fingerspelling.png" alt="letter F fingerspelling recognition output">
+            </div>
             <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">
-              <strong>Tools:</strong> Procreate, iPad, Clip Studio Paint
+              <strong>Tools:</strong> Various ML technologies, Python, HTML, CSS, Jupyter Notebooks, OpenCV, MediaPipe
             </p>
           </div>
         </div>
@@ -159,12 +195,33 @@
           
           <div class="card-content">
             <p>
-              Description of a collaborative project. What was your role? 
-              Who did you work with? What was the outcome?
+              This six month final project contributed to my Software Engineering degree apprenticeship as a culmination of all the skills 
+              I developed throughout the course. The project was focused on solving a real-world problem in my workplace, which made it
+              especially rewarding. The project was conceived to address a recurring operational problem: build lead knowledge is fragmented
+              across Slack channels, file-sharing software, emails and GitHub repositories, causing inefficiency and
+              reliance on individual expertise. To address this, I designed and developed a Build Lead Assistant — a full-stack
+              web application built on Corrective Retrieval-Augmented Generation (C-RAG) technology. The application allows users
+              to ingest knowledge from multiple sources (file uploads, URLs, raw text, Mural boards, structured workshop data)
+              into vector collections, then query those collections using natural language. The C-RAG pipeline rewrites user queries,
+              retrieves relevant chunks from a vector database, grades their relevance, and generates answers from the verified context,
+              significantly reducing the risk of hallucination.
+              The resulting full-stack application had a Python/FastAPI backend, a React/Vite frontend (mocked using UI wireframes),
+              and a Milvus vector database, all deployed on IBM Cloud using Docker. Understanding the flow of data and orchestrating
+              the various data/components of the application was a fascinating insight into the complexities of real-world data pipelines.
+              This project pushed my capabilities. As a platform engineer whose daily work centres on infrastructure and programming,
+              developing a fullstack application through the entire SDLC, from requirements elicitation to deployment, was challenging.
+              I gained practical experience with technologies including Code Engine, OAuth2 and LangChain, areas encountered peripherally
+              through pilot work that I have never been solely responsible for. It was particularly rewarding to deploy the fullstack application.
+              Managing a six month solo project alongside active CE pilot commitments tested my time management and prioritisation skills.
+              The experience reinforced the importance of realistic scoping, risk identification and mitigation, and flexible planning.
             </p>
-            
+            <div class="case-study-images">
+              <!-- Replace these sample images with your project screenshots -->
+              <img src="images/project-output.png" alt="C-RAG build tool user interface">
+              <img src="images/C-RAG-data-pipeline.png" alt="C-RAG data pipeline diagram">
+            </div>
             <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">
-              <strong>Tools:</strong> Figma, Adobe Creative Suite, GitHub
+              <strong>Tools:</strong> Docker, OAuth2, LangChain, Vector Databases, FastAPI, React, Code Engine, GitHub Actions
             </p>
           </div>
         </div>

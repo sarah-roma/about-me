@@ -215,6 +215,17 @@ section {
   line-height: 1.7;
 }
 
+.card-content a.link,
+.card-content a.link:visited {
+  color: var(--primary-accent);
+  text-decoration: underline;
+}
+
+.card-content a.link:hover,
+.card-content a.link:focus {
+  color: var(--secondary-accent);
+}
+
 /* ========================================
    SKILLS & TAGS
    ======================================== */
@@ -258,7 +269,13 @@ section {
   background-color: var(--bg-light);
   border: 2px solid var(--primary-accent);
   transition: all 0.3s ease;
+  aspect-ratio: 1 / 1;
+  max-width: 360px;
   max-height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .portfolio-item:hover {
@@ -267,9 +284,10 @@ section {
 }
 
 .portfolio-item img {
-  width: 100%;
+  width: auto;
   height: auto;
-  max-height: 360px;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   display: block;
   transition: transform 0.3s ease;
@@ -283,14 +301,14 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin: 1.5rem auto 0;
   max-width: 720px;
 }
 
 .case-study-images img {
   width: 100%;
   max-width: 100%;
-  max-height: 220px;
+  max-height: 180px;
   height: auto;
   object-fit: contain;
   border-radius: 8px;

@@ -256,7 +256,7 @@ section {
 }
 
 .skill-tag:hover {
-  background-color: var(--primary-accent);
+  background-color: var(--secondary-accent);
   color: var(--primary-dark);
   transform: scale(1.05);
 }

@@ -245,12 +245,12 @@ section {
 
 .skill-tag {
   display: inline-block;
-  background-color: rgba(48, 122, 172, 0.22);
+  background-color: #ed733b59;
   color: var(--text-light);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
-  border: 1px solid rgba(48, 122, 172, 0.5);
+  border: 1px solid #ec7239;
   transition: all 0.3s ease;
   font-family: var(--font-mono);
 }

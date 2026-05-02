@@ -4,16 +4,16 @@
    ======================================== */
 
 /* ========================================
-   ROOT & VARIABLES - Customize colors here
+   ROOT & VARIABLES
    ======================================== */
 :root {
-  /* Primary Colors - Change these to match your brand */
-  --primary-dark: #0a0e27;      /* Very dark blue - main background */
-  --primary-accent: #00d4ff;    /* Cyan - highlights and borders */
-  --secondary-accent: #7c3aed;  /* Purple - secondary highlights */
-  --text-light: #e2e8f0;        /* Light gray - main text */
-  --text-muted: #94a3b8;        /* Muted gray - secondary text */
-  --bg-light: #1e293b;          /* Light dark blue - cards/sections */
+  /* Primary Colors */
+  --primary-dark: #0c1f2c;      /* Very dark blue - main background */
+  --primary-accent: #45b4fd;    /* Cyan - highlights and borders */
+  --secondary-accent: #ec7239;  /* Purple - secondary highlights */
+  --text-light: #e2eef0;        /* Light gray - main text */
+  --text-muted: #8aa6b5;        /* Muted gray - secondary text */
+  --bg-light: #112d3f;          /* Light dark blue - cards/sections */
   --success: #10b981;           /* Green - success/positive elements */
   --warning: #f59e0b;           /* Orange - warnings/attention */
 
@@ -50,7 +50,7 @@ body {
    NAVIGATION
    ======================================== */
 nav {
-  background-color: rgba(10, 14, 39, 0.95);
+  background-color: var(--primary-dark);
   padding: 1rem 2rem;
   border-bottom: 2px solid var(--primary-accent);
   position: sticky;

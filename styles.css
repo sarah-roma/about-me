@@ -18,7 +18,7 @@
   --warning: #f59e0b;           /* Orange - warnings/attention */
 
   /* Typography */
-  --font-mono: 'Cascadia Code', 'Cascadia Mono', 'Courier New', monospace;
+  --font-mono: 'Courier New', monospace;
   --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Spacing */
@@ -245,12 +245,12 @@ section {
 
 .skill-tag {
   display: inline-block;
-  background-color: rgba(0, 212, 255, 0.1);
-  color: var(--primary-accent);
+  background-color: rgba(48, 122, 172, 0.22);
+  color: var(--text-light);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
-  border: 1px solid var(--primary-accent);
+  border: 1px solid rgba(48, 122, 172, 0.5);
   transition: all 0.3s ease;
   font-family: var(--font-mono);
 }

@@ -9,16 +9,16 @@
 :root {
   /* Primary Colors */
   --primary-dark: #0c1f2c;      /* Very dark blue - main background */
-  --primary-accent: #45b4fd;    /* Cyan - highlights and borders */
+  --primary-accent: #307aac;    /* Cyan - highlights and borders */
   --secondary-accent: #ec7239;  /* Purple - secondary highlights */
   --text-light: #e2eef0;        /* Light gray - main text */
-  --text-muted: #8aa6b5;        /* Muted gray - secondary text */
+  --text-muted: #b1cbd8;        /* Muted gray - secondary text */
   --bg-light: #112d3f;          /* Light dark blue - cards/sections */
   --success: #10b981;           /* Green - success/positive elements */
   --warning: #f59e0b;           /* Orange - warnings/attention */
 
   /* Typography */
-  --font-mono: 'Courier New', monospace;
+  --font-mono: 'Cascadia Code', 'Cascadia Mono', 'Courier New', monospace;
   --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Spacing */
@@ -39,7 +39,7 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-mono), var(--font-sans);
   background-color: var(--primary-dark);
   color: var(--text-light);
   line-height: 1.6;
@@ -137,7 +137,14 @@ section {
   left: 0;
   width: 100px;
   height: 3px;
-  background: linear-gradient(90deg, var(--primary-accent), var(--secondary-accent));
+  background-color: var(--secondary-accent);
+}
+
+.card-subtitle {
+  display: inline-block;
+  border-bottom: 2px solid var(--secondary-accent);
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
 }
 
 /* ========================================
@@ -154,7 +161,7 @@ section {
   font-size: 3.5rem;
   color: var(--primary-accent);
   margin-bottom: 0.5rem;
-  text-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  text-shadow: 0 0 12px rgba(48, 122, 172, 0.2);
 }
 
 .hero .subtitle {
